@@ -9,7 +9,7 @@ platform_pre_upgrade() {
 	local board=$(board_name)
 
 	case "$board" in
-	BTHOMEHUBV2B|BTHOMEHUBV3A|BTHOMEHUBV5A|P2812HNUF* )
+	BTHOMEHUBV2B|BTHOMEHUBV3A|BTHOMEHUBV5A|P2812HNUF*|VGV952CJW33-E-IR )
 		nand_do_upgrade $1
 		;;
 	esac
