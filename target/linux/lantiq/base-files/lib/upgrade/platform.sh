@@ -16,7 +16,7 @@ platform_pre_upgrade() {
 }
 
 platform_nand_pre_upgrade() {
-	local board=$(lantiq_board_name)
+	local board=$(board_name)
 	echo "platform_nand_pre_upgrade()"
 
 	case "$board" in
